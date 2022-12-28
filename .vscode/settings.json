@@ -1,0 +1,19 @@
+"terminal.integrated.profiles.windows": {
+    "PowerShell": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+        "path": [
+            "${env:windir}\\Sysnative\\cmd.exe",
+            "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd"
+    },
+    "Git-Bash": {
+        "path": "D:\\Program Files (x86)\\Git\\user\\bin\\bash.exe",
+        "args": [],
+    }
+},
+"terminal.integrated.defaultProfile.windows": "Git-Bash",// 启动终端默认为“git bash”
